@@ -1,6 +1,6 @@
 {
     "randomSeed": 7707,
-    "kMeansNrOfClusters": 16,
+    "kMeansNrOfClusters": 12,
     "kMeansMinDeltaDifference": 1,
     "kMeansClusteringColorSpace": 0,
     "kMeansColorRestrictions": [],
@@ -13,17 +13,17 @@
         "B2": [            128,            128,            128        ],
         "B3": [            192,            192,            192        ]
     },
-    "removeFacetsSmallerThanNrOfPoints": 20,
+    "removeFacetsSmallerThanNrOfPoints": 60,
     "removeFacetsFromLargeToSmall": true,
-    "maximumNumberOfFacets": 100,
-    "nrOfTimesToHalveBorderSegments": 2,
+    "maximumNumberOfFacets": 300,
+    "nrOfTimesToHalveBorderSegments": 3,
     "narrowPixelStripCleanupRuns": 3,
     "resizeImageIfTooLarge": true,
     "resizeImageWidth": 1024,
     "resizeImageHeight": 1024,
     "outputProfiles": [
         {
-            "name": "full",
+            "name": "colored",
             "svgShowLabels": true,
             "svgFillFacets": true,
             "svgShowBorders": true,
@@ -33,25 +33,14 @@
             "filetype": "png"
         },
         {
-            "name": "bordersLabels",
+            "name": "black-and-white",
             "svgShowLabels": true,
             "svgFillFacets": false,
             "svgShowBorders": true,
             "svgSizeMultiplier": 3,
             "svgFontSize": 50,
             "svgFontColor": "#333",
-            "filetype": "svg"
-        },
-        {
-            "name": "jpgtest",
-            "svgShowLabels": false,
-            "svgFillFacets": true,
-            "svgShowBorders": false,
-            "svgSizeMultiplier": 3,
-            "svgFontSize": 50,
-            "svgFontColor": "#333",
-            "filetype": "jpg",
-            "filetypeQuality": 80
+            "filetype": "png"
         }
     ]
 }

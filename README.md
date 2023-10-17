@@ -5,6 +5,12 @@ Generate paint by number images (vectorized with SVG) from any input image.
 
 Try it out [here](https://drake7707.github.io/paintbynumbersgenerator/index.html)
 
+### Building the CLI on MacOS
+1. `npm install`
+2. `npm install pkg -g`
+3. `tsc src-cli`, `tsc src`
+4. In the `src-cli` directory, `pkg main.js`
+
 ### CLI Version
 
 The CLI version is a self contained node application that does the conversion from arguments, for example:
